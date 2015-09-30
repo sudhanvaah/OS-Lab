@@ -47,7 +47,6 @@ main()
     avgt/=n;
     cout<<"\nProcess\t\tBurst time\tTurnaround time\t\tWaiting time";
     for(i=0;i<n;i++)
-        //printf("p%d\t%d\t%d\t%d\n",c[i],burst[i],t[i],w[i]);
         cout<<"\nP"<<pno[i]<<"\t\t"<<burst[i]<<"\t\t"<<turnaround[i]<<"\t\t\t"<<wait[i];
     cout<<"\n\nAverage waitng time: "<<avgw;
     cout<<"\nAverage turn arround time: "<<avgt;
